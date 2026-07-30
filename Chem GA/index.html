@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Diversity — pH-enomenal Chemistry</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<button class="index-btn" id="menuOpen" aria-label="Open index">
+  <svg viewBox="0 0 24 24" class="flask-icon"><path d="M9 2v6.5L3.5 18a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L15 8.5V2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M7 2h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6 15h12" stroke="currentColor" stroke-width="1.6"/></svg>
+  <span>INDEX</span>
+  <svg viewBox="0 0 24 24" class="burger-icon"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+</button>
+
+<div class="menu-overlay" id="menuOverlay">
+  <nav class="menu-panel">
+    <div class="menu-head">
+      <div>
+        <p class="menu-eyebrow">VICTORIA SCHOOL · Y3 CHEMISTRY</p>
+        <p class="menu-title">Team <em>Diversity</em></p>
+      </div>
+      <button class="menu-close" id="menuClose" aria-label="Close index">×</button>
+    </div>
+    <ol class="menu-list">
+      <li><a href="#home"><span>00</span> Home</a></li>
+      <li><a href="#background"><span>01</span> Background Research</a></li>
+      <li><a href="#investigations"><span>02</span> Individual Investigations</a></li>
+      <li><a href="#optimisation"><span>03</span> Group Optimisation</a></li>
+      <li><a href="#practicum"><span>04</span> Live Lab Practicum</a></li>
+      <li><a href="#discussion"><span>05</span> Discussion &amp; Conclusion</a></li>
+      <li><a href="#references" class="active"><span>06</span> References</a></li>
+    </ol>
+    
+  </nav>
+</div>
+
+<!-- ========== HERO ========== -->
+<header class="hero" id="home">
+  <div class="hero-swirl" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="eyebrow"><span class="rule"></span> CHEM-IS-TRY BEYOND THE LAB</p>
+    <h1 class="hero-title">Team <em>Diversity</em></h1>
+    <p class="hero-copy">
+      <strong>pH-enomenal Chemistry, the ultimate indicator challenge.</strong>
+      We used turmeric and red cabbage from the kitchen to make a single pH indicator
+      that works across the whole scale. It goes orange-red in acids, purple
+      when neutral, and brownish-green in alkalis.
+    </p>
+    <div class="tag-row">
+      <span class="tag"><svg viewBox="0 0 24 24" class="tag-icon"><path d="M9 2v6.5L3.5 18a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L15 8.5V2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 2h10" stroke="currentColor" stroke-width="1.6"/></svg> Agaran Murugan · <b>Red cabbage</b></span>
+      <span class="tag"><svg viewBox="0 0 24 24" class="tag-icon"><path d="M9 2v6.5L3.5 18a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L15 8.5V2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 2h10" stroke="currentColor" stroke-width="1.6"/></svg> Aydin Farhan · <b>Turmeric</b></span>
+      <span class="tag"><svg viewBox="0 0 24 24" class="tag-icon"><path d="M9 2v6.5L3.5 18a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L15 8.5V2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 2h10" stroke="currentColor" stroke-width="1.6"/></svg> Class 3H · <b>Victoria School</b></span>
+    </div>
+    <div class="btn-row">
+      <a href="#investigations" class="btn btn-primary">Try the live simulation <span>↓</span></a>
+      <a href="#background" class="btn btn-outline">Read the investigation</a>
+    </div>
+  </div>
+  <div class="scroll-hint"><span>SCROLL</span><i></i></div>
+</header>
+
+<main>
+
+<!-- ========== 01 BACKGROUND RESEARCH ========== -->
+<section class="section" id="background">
+  <p class="section-badge orange">01</p>
+  <h2 class="section-title">Background Research</h2>
+  <p class="section-sub">Why we picked these two indicators, and what the research says about them.</p>
+
+  <div class="grid-2">
+    <div class="card">
+      <p class="card-label">INTRODUCTION</p>
+      <p>We had a few things to think about when picking our indicators. Colour range, solubility, shelf life, and how well they'd work together. Red cabbage stood out because it's packed with anthocyanin, the pigment that gives it that deep purple colour and reacts across most of the pH scale. Then we needed a second one to go with it.</p>
+      <p>The problem was that anthocyanin goes nearly clear in basic solutions, so the colour change at that end of the scale is hard to see. Turmeric fixed that. Its active pigment, <em>curcumin</em>, turns dark red in bases, which makes the change at the alkaline end much more obvious.</p>
+      <p>On their own, both worked. But together they worked better. It took some trial and error though. The main issue was how little turmeric we could use. Too much and the whole mixture stays red, because curcumin turns red in acid while anthocyanin turns red in base. They'd cancel each other out and kill the contrast. So curcumin ended up playing a supporting role, just making the alkaline end clearer rather than doing half the work. The other problem was that turmeric doesn't dissolve in water, so we had to look at using alcohol instead. We worked through it and ended up with an indicator we're happy with.</p>
+    </div>
+    <figure class="card image-card">
+      <div class="fig-image fig-turmeric" role="img" aria-label="Turmeric root and powder on white background">
+        <div class="sub-figure">
+          <img src="images.jpg" alt="Turmeric root and powder on white background">
+        </div>
+      </div>
+      <figcaption>
+        Fig. 01 · Turmeric (<em>Curcuma longa</em>)
+        <span class="tiny-caption">Turmeric root and powder for the preparation.</span>
+      </figcaption>
+    </figure>
+    <figure class="card image-card">
+      <div class="fig-image fig-cabbage" role="img" aria-label="Red cabbage placeholder photo">
+        <img src="images (1).jpg" alt="Red cabbage photo placeholder">
+      </div>
+      <figcaption>Fig. 02 · Red cabbage</figcaption>
+    </figure>
+  </div>
+
+  <div class="grid-2">
+    <div class="card">
+      <p class="card-label accent-red"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M4 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4V4Z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M20 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8V4Z" fill="none" stroke="currentColor" stroke-width="1.4"/></svg> LITERATURE REVIEW · AGARAN MURUGAN</p>
+      <p>Red cabbage (<em>Brassica oleracea</em>) works well as a natural pH indicator because its anthocyanins are water-soluble and shift colour across a wide pH range. Anthocyanins are a type of flavonoid pigment, and their colour comes from the way the molecular structure changes with the concentration of hydrogen ions around it. In acidic conditions the flavylium cation form dominates, which looks red. As pH rises the molecule loses protons and shifts through quinonoidal and chalcone forms, moving through pink, purple, blue, and green before it breaks down at the strong-alkali end. The same pigments are antioxidants and antimicrobial, which is why they're showing up in smart food packaging that warns you when food is going off. Among natural pigments, red cabbage anthocyanins have one of the widest colour ranges, and researchers have already embedded them into bio-polymer films that act as real-time spoilage sensors. The literature also notes that the colour isn't perfectly stable. Heat, light, and oxygen all speed up the breakdown of anthocyanins, so the extract fades over time. We noticed this ourselves, since our indicator lost its colour after a couple of days in the fridge.</p>
+    </div>
+    <div class="card">
+      <p class="card-label accent-red"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M4 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4V4Z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M20 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8V4Z" fill="none" stroke="currentColor" stroke-width="1.4"/></svg> LITERATURE REVIEW · AYDIN FARHAN</p>
+      <p>Curcumin is the main pigment in turmeric (<em>Curcuma longa</em>) and works as a natural acid-base indicator because its structure changes with pH. Curcumin is a diarylheptanoid, and its colour comes from a chain of conjugated double bonds that absorb light in the blue region, which is why it looks yellow. In acid and neutral solutions it stays in its protonated form and the colour doesn't change. In alkaline conditions it deprotonates, which shifts the conjugated system and changes the absorption, so the colour moves to red-brown. N-hexane turmeric extracts have been shown to work about as well as synthetic indicators in strong acid-strong base titrations, with sharp, repeatable end points. The catch is that curcumin barely dissolves in water because of its hydrophobic structure, so it's best extracted in a mild organic solvent or warm water. The main weakness is its narrow range. It barely reacts across the acidic and neutral regions and only really responds to bases. That's why we paired it with red cabbage, since the two pigments cover different parts of the scale.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 02 INDIVIDUAL INVESTIGATIONS ========== -->
+<section class="section" id="investigations">
+  <p class="section-badge orange">02</p>
+  <h2 class="section-title">Individual Investigations</h2>
+  <p class="section-sub">Each member planned and ran their own experiment on their assigned plant. Here's the planning, results, and analysis, plus a strip simulation for each indicator.</p>
+
+  <div class="tab-row" role="tablist">
+    <button class="tab-pill active" data-tab="cabbage" role="tab">Agaran Murugan · Red cabbage</button>
+    <button class="tab-pill" data-tab="turmeric" role="tab">Aydin Farhan · Turmeric</button>
+  </div>
+
+  <!-- ---- CABBAGE TAB ---- -->
+  <div class="tab-panel active" data-panel="cabbage">
+
+    <div class="grid-2">
+      <div class="card">
+        <p class="card-label accent-red"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M4 5h16M6 5v14a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg> EXPERIMENTAL PLANNING SUMMARY</p>
+        <dl class="plan-list">
+          <dt>INDEPENDENT VARIABLE</dt><dd>pH of the test solutions (lemon juice, salt water, bleach).</dd>
+          <dt>DEPENDENT VARIABLE</dt><dd>Colour of the red cabbage indicator.</dd>
+          <dt>CONTROLLED VARIABLES</dt><dd>Volume of indicator (3 ml), volume of each test solution (5 ml), and testing location.</dd>
+          <dt>PROCEDURE</dt><dd>Boiled and simmered red cabbage to pull out the pigment, then added a fixed amount of indicator to each test solution and compared the colour against a reference chart.</dd>
+          <dt>USE OF DATA</dt><dd>Matched the colour to the chart and took an RGB reading with an app to find the pH of each solution, then checked it against universal indicator results.</dd>
+          <dt>SAFETY</dt><dd>Wore goggles while boiling, gloves when handling the cabbage to avoid contamination, and didn't touch the hot mixture until it cooled.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <p class="card-label accent-red"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M9 2v6.5L3.5 18a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L15 8.5V2" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M7 2h10" stroke="currentColor" stroke-width="1.4"/></svg> MATERIALS &amp; METHODS</p>
+        <p>We chopped 500 g of red cabbage and put it in a pot with enough water to cover it. Boiled for 10 minutes, then simmered for 30. Filtered it and kept the liquid in the fridge as our indicator. For each test we added 3 ml of indicator to 5 ml of the test solution (lemon juice, salt water, bleach) and compared the colour to our chart. We ran it again with 2 ml of universal indicator as a cross-check.</p>
+      </div>
+    </div>
+
+    <!-- Interactive strip simulation -->
+    <div class="card wide">
+      <p class="card-label accent-red"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M9 2v6.5L3.5 18a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L15 8.5V2" fill="none" stroke="currentColor" stroke-width="1.4"/></svg> INTERACTIVE STRIP SIMULATION · RED CABBAGE</p>
+      <p class="hand-hint">✋ Soak the strip in red cabbage extract, then drag it into a reagent to see how it reacts.</p>
+
+      <div class="bench" data-bench="cabbage">
+        <div class="bench-head"><span><svg viewBox="0 0 24 24" class="mini-icon"><path d="M9 2v6.5L3.5 18a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L15 8.5V2" fill="none" stroke="currentColor" stroke-width="1.4"/></span> STRIP RACK</span><span class="bench-tag">BENCH · 01</span></div>
+
+        <div class="strip-zone">
+          <div class="strip" id="strip-cabbage" draggable="true"></div>
+        </div>
+
+        <div class="station-row">
+          <div class="station source" data-role="source" data-color="#B15FC0" data-name="Red cabbage extract">
+            <div class="vial"><div class="fill" style="background:#B15FC0;height:55%"></div></div>
+            <p class="station-name">Red cabbage<br>extract</p>
+            <p class="station-sub">Indicator source</p>
+          </div>
+          <div class="station reagent" data-role="reagent" data-color="#E7476B" data-name="Lemon juice" data-ph="acid">
+            <div class="vial"><div class="fill" style="background:#CFE05B;height:45%"></div></div>
+            <p class="station-name">Lemon juice</p>
+            <p class="station-sub">Acidic</p>
+          </div>
+          <div class="station reagent" data-role="reagent" data-color="#7D5FC2" data-name="Distilled water" data-ph="neutral">
+            <div class="vial"><div class="fill water" style="height:35%"></div></div>
+            <p class="station-name">Distilled water</p>
+            <p class="station-sub">Neutral</p>
+          </div>
+          <div class="station reagent" data-role="reagent" data-color="#3B9CA5" data-name="Bleach" data-ph="alkaline">
+            <div class="vial"><div class="fill" style="background:#EDE7D3;height:30%"></div></div>
+            <p class="station-name">Bleach</p>
+            <p class="station-sub">Alkaline</p>
+          </div>
+        </div>
+
+        <div class="sim-message" id="sim-msg-cabbage">
+          <span class="dot"></span> Drag the paper strip into the indicator source to soak it.
+        </div>
+
+        <div class="ph-ref">
+          <p class="card-label">PH COLOUR REFERENCE · RED CABBAGE (AGARAN)</p>
+          <div class="ph-bar cabbage-gradient"></div>
+          <div class="ph-labels">
+            <span>pH 1 · Acidic (red)</span>
+            <span>pH 7 · Neutral (purple)</span>
+            <span>pH 14 · Alkaline (blue-green)</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <p class="card-label"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" stroke="currentColor" stroke-width="1.5" fill="none"/></svg> OBSERVATIONS &amp; DATA</p>
+        <table class="data-table">
+          <thead><tr><th>SOLUTION</th><th>COLOUR OBSERVED</th><th>APP READING</th><th>PH</th></tr></thead>
+          <tbody>
+            <tr><td><b>Lemon juice (acidic)</b></td><td>Red / pink</td><td>RGB 231, 76, 109</td><td>pH ≈ 3</td></tr>
+            <tr><td><b>Salt water (neutral)</b></td><td>Purple / violet</td><td>RGB 125, 95, 194</td><td>pH ≈ 7</td></tr>
+            <tr><td><b>Bleach (alkaline)</b></td><td>Blue-green</td><td>RGB 59, 156, 165</td><td>pH ≈ 12</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <p class="card-label"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M3 7l6 3 6-4 6 3v9l-6-3-6 4-6-3V7Z" fill="none" stroke="currentColor" stroke-width="1.4"/></svg> PHOTOS FROM THE INVESTIGATION</p>
+        <div class="specimen-row">
+          <div class="specimen" style="background:#E74C6D">
+            <span class="specimen-tag">SPECIMEN</span>
+            <span class="specimen-hex">#E74C6D</span>
+            <img src="Lemon juice.jpeg" alt="Lemon juice test photo">
+            <div class="specimen-foot"><b>Acidic · Lemon juice</b><br>Red-pink · pH ≈ 3</div>
+          </div>
+          <div class="specimen" style="background:#7D5FC2">
+            <span class="specimen-tag">SPECIMEN</span>
+            <span class="specimen-hex">#7D5FC2</span>
+            <img src="Salt Water.jpeg" alt="Salt water test photo">
+            <div class="specimen-foot"><b>Neutral · Salt water</b><br>Purple · pH ≈ 7</div>
+          </div>
+          <div class="specimen" style="background:#3B9CA5">
+            <span class="specimen-tag">SPECIMEN</span>
+            <span class="specimen-hex">#3B9CA5</span>
+            <img src="bleach.jpeg" alt="Bleach test photo">
+            <div class="specimen-foot"><b>Alkaline · Bleach</b><br>Blue-green · pH ≈ 12</div>
+          </div>
+        </div>
+        <p class="tiny-note">Colour cards show roughly what we observed. Swap in lab photos where you have them.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="card-label">💡 ANALYSIS OF INDICATOR</p>
+      <p>Red cabbage gave clear, vivid colour changes across all three solutions. Lemon juice turned it bright red-pink. Salt water kept its natural purple-violet. Bleach shifted it to blue-green. The changes were sharp and easy to tell apart by eye, and the RGB readings confirmed each colour sat in its own part of colour space with big jumps between pH levels. The reason the colour shifts so much is that anthocyanins exist in several structural forms depending on the pH. In acid the flavylium cation is the main form and looks red. As the solution becomes less acidic, the molecule shifts to quinonoidal and then chalcone forms, each of which absorbs light differently, so the colour moves through pink, purple, and blue. Its main strength is range. Anthocyanins react across almost the whole pH scale, which is why red cabbage is the backbone of our blend. The weak spot is the strong-alkali end, where the chalcone form breaks down and the colour gets pale and washed out. That's where turmeric comes in, since curcumin deprotonates and turns red-brown in the same region.</p>
+    </div>
+
+    <div class="card">
+      <p class="card-label"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" stroke="currentColor" stroke-width="1.5" fill="none"/></svg> EVALUATION &amp; SCIENTIFIC REASONING</p>
+      <p><b>Strengths:</b> it covers a wide pH range with clear, well-separated colours. The structural forms of anthocyanins change smoothly across the scale, so there's a distinct colour for each pH band. Being water-soluble means extraction is just boiling, since the pigments move easily into the water. It's cheap, non-toxic, and easy to find. <b>Limitations:</b> anthocyanins break down with light and heat because oxygen and UV damage the flavylium ring, so the liquid fades after a few days. The colour goes pale at the strong-alkali end where the chalcone form degrades. Pigment strength varies from one cabbage to the next depending on soil, season, and how old the cabbage is. <b>Improvements:</b> standardise the concentration with a colorimeter so each batch is the same strength, store the liquid in a dark airtight container to slow down oxidation, add a little ethanol to stabilise the pigment, and calibrate against buffers of known pH for a solid reference chart.</p>
+    </div>
+
+  </div>
+
+  <!-- ---- TURMERIC TAB ---- -->
+  <div class="tab-panel" data-panel="turmeric">
+
+    <div class="grid-2">
+      <div class="card">
+        <p class="card-label accent-red"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M4 5h16M6 5v14a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg> EXPERIMENTAL PLANNING SUMMARY</p>
+        <dl class="plan-list">
+          <dt>INDEPENDENT VARIABLE</dt><dd>The household solution the paper strip was dipped in (lemon juice, salt water, or bleach).</dd>
+          <dt>DEPENDENT VARIABLE</dt><dd>The final colour the turmeric strip turned.</dd>
+          <dt>CONTROLLED VARIABLES</dt><dd>How long the strip dried, how long it sat in each solution, and how long we waited before reading the colour.</dd>
+          <dt>PROCEDURE</dt><dd>Mixed turmeric powder into warm water (2 teaspoons per 100 ml) to release the pigment, dipped paper strips in, and tested them against the three solutions.</dd>
+          <dt>USE OF DATA</dt><dd>Matched each strip's colour to the reference chart and took an RGB reading with an app to find the pH, then checked it against universal indicator results.</dd>
+          <dt>SAFETY</dt><dd>Wore gloves the whole time since turmeric stains almost anything porous. Kept the bleach in a well-ventilated area away from acidic solutions to avoid releasing chlorine gas.</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <p class="card-label accent-red"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M9 2v6.5L3.5 18a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L15 8.5V2" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M7 2h10" stroke="currentColor" stroke-width="1.4"/></svg> MATERIALS &amp; METHODS</p>
+        <p>To get the turmeric extract, I mixed turmeric powder into warm water, about 2 teaspoons per 100 ml. I tried cold water first but it barely pulled any colour out, so I considered ethanol since it dissolves curcumin better. In the end I stuck with warm water. It worked well enough and was far easier and safer to prepare than handling ethanol. How much turmeric I used depended on how strong I needed the colour. I tested the extract on lemon juice (acidic), salt water (neutral), and bleach (alkaline). I assumed the household solutions were at their typical pH (lemon juice ≈ 2, salt water ≈ 7, bleach ≈ 11) since I didn't have a pH meter to check precisely.</p>
+      </div>
+    </div>
+
+    <div class="card wide">
+      <p class="card-label accent-red"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M9 2v6.5L3.5 18a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L15 8.5V2" fill="none" stroke="currentColor" stroke-width="1.4"/></svg> INTERACTIVE STRIP SIMULATION · TURMERIC</p>
+      <p class="hand-hint">✋ Soak the strip in turmeric extract, then drag it into a reagent to see how it reacts.</p>
+
+      <div class="bench" data-bench="turmeric">
+        <div class="bench-head"><span><svg viewBox="0 0 24 24" class="mini-icon"><path d="M9 2v6.5L3.5 18a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L15 8.5V2" fill="none" stroke="currentColor" stroke-width="1.4"/></span> STRIP RACK</span><span class="bench-tag">BENCH · 02</span></div>
+
+        <div class="strip-zone">
+          <div class="strip" id="strip-turmeric" draggable="true"></div>
+        </div>
+
+        <div class="station-row">
+          <div class="station source" data-role="source" data-color="#E8A93A" data-name="Turmeric extract">
+            <div class="vial"><div class="fill" style="background:#E8A93A;height:55%"></div></div>
+            <p class="station-name">Turmeric<br>extract</p>
+            <p class="station-sub">Indicator source</p>
+          </div>
+          <div class="station reagent" data-role="reagent" data-color="#F3D65B" data-name="Lemon juice" data-ph="acid">
+            <div class="vial"><div class="fill" style="background:#CFE05B;height:45%"></div></div>
+            <p class="station-name">Lemon juice</p>
+            <p class="station-sub">Acidic</p>
+          </div>
+          <div class="station reagent" data-role="reagent" data-color="#F3D65B" data-name="Distilled water" data-ph="neutral">
+            <div class="vial"><div class="fill water" style="height:35%"></div></div>
+            <p class="station-name">Distilled water</p>
+            <p class="station-sub">Neutral</p>
+          </div>
+          <div class="station reagent" data-role="reagent" data-color="#A0522D" data-name="Bleach" data-ph="alkaline">
+            <div class="vial"><div class="fill" style="background:#EDE7D3;height:30%"></div></div>
+            <p class="station-name">Bleach</p>
+            <p class="station-sub">Alkaline</p>
+          </div>
+        </div>
+
+        <div class="sim-message" id="sim-msg-turmeric">
+          <span class="dot"></span> Drag the paper strip into the indicator source to soak it.
+        </div>
+
+        <div class="ph-ref">
+          <p class="card-label">PH COLOUR REFERENCE · TURMERIC (AYDIN)</p>
+          <div class="ph-bar turmeric-gradient"></div>
+          <div class="ph-labels">
+            <span>pH 1 · Acidic (yellow)</span>
+            <span>pH 7 · Neutral (yellow)</span>
+            <span>pH 14 · Alkaline (red-brown)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <p class="card-label"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" stroke="currentColor" stroke-width="1.5" fill="none"/></svg> OBSERVATIONS &amp; DATA</p>
+        <table class="data-table">
+          <thead><tr><th>SOLUTION</th><th>COLOUR OBSERVED</th><th>APP READING</th><th>PH</th></tr></thead>
+          <tbody>
+            <tr><td><b>Lemon juice (acidic)</b></td><td>Bright yellow</td><td>RGB 240, 205, 68</td><td>pH ≈ 3</td></tr>
+            <tr><td><b>Salt water (neutral)</b></td><td>Yellow</td><td>RGB 233, 190, 72</td><td>pH ≈ 7</td></tr>
+            <tr><td><b>Bleach (alkaline)</b></td><td>Red-brown</td><td>RGB 150, 60, 40</td><td>pH ≈ 12</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <p class="card-label"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M3 7l6 3 6-4 6 3v9l-6-3-6 4-6-3V7Z" fill="none" stroke="currentColor" stroke-width="1.4"/></svg> PHOTOS FROM THE INVESTIGATION</p>
+        <div class="specimen-row">
+          <div class="specimen" style="background:#F0CD44">
+            <span class="specimen-tag">SPECIMEN</span>
+            <span class="specimen-hex">#F0CD44</span>
+            <img src="Bright Yellow.png" alt="Lemon juice test photo">
+            <div class="specimen-foot"><b>Acidic · Lemon juice</b><br>Yellow · pH ≈ 3</div>
+          </div>
+          <div class="specimen" style="background:#E9BE48">
+            <span class="specimen-tag">SPECIMEN</span>
+            <span class="specimen-hex">#E9BE48</span>
+            <img src="Yellow.png" alt="Salt water test photo">
+            <div class="specimen-foot"><b>Neutral · Salt water</b><br>Yellow · pH ≈ 7</div>
+          </div>
+          <div class="specimen" style="background:#963C28">
+            <span class="specimen-tag">SPECIMEN</span>
+            <span class="specimen-hex">#963C28</span>
+            <img src="Red.png" alt="Bleach test photo">
+            <div class="specimen-foot"><b>Alkaline · Bleach</b><br>Red-brown · pH ≈ 12</div>
+          </div>
+        </div>
+        <p class="tiny-note">Colour cards show roughly what we observed. Swap in lab photos where you have them.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="card-label">💡 ANALYSIS OF INDICATOR</p>
+      <p>Turmeric barely changed at all in lemon juice or salt water, staying a steady yellow in both. It only reacted once the solution turned strongly alkaline, where it shifted to a deep red-brown. That's because curcumin's structure only changes once it loses a proton, which needs a high concentration of hydroxide ions. In acid and neutral solution the molecule keeps its keto form and stays yellow. Its main strength is a sharp, high-contrast signal exactly where red cabbage goes weak, at the strong-alkali end. The trade-off is range: on its own turmeric can't tell acid from neutral, so it's not useful as a stand-alone indicator across the whole scale, only as a supporting one.</p>
+    </div>
+
+    <div class="card">
+      <p class="card-label"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" stroke="currentColor" stroke-width="1.5" fill="none"/></svg> EVALUATION &amp; SCIENTIFIC REASONING</p>
+      <p><b>Strengths:</b> turmeric gives an intense, high-contrast response to bases. It stays stable and unchanged in acid and neutral. It's non-toxic and widely available. <b>Limitations:</b> curcumin won't dissolve in water, so you need warm water or an organic solvent. It stains porous materials easily. The range is narrow, since it can't tell acid from neutral. And if you use too much, it masks the red cabbage's colour. <b>Improvements:</b> extract with a controlled ethanol-water ratio for consistent strength, pre-coat and dry filter-paper strips so they're portable, and read the end-point colour with a colorimeter to take the guesswork out of it.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== 03 GROUP OPTIMISATION ========== -->
+<section class="section" id="optimisation">
+  <p class="section-badge red">03</p>
+  <h2 class="section-title">Group Optimisation</h2>
+  <p class="section-sub">How we mixed the two extracts into one broad-range indicator, and how we landed on the right ratio.</p>
+
+  <div class="grid-2">
+    <div class="card">
+      <p class="card-label accent-red">⧉ FINAL INDICATOR FORMULATION</p>
+      <p>We mixed the two extracts at an 80:20 ratio, 160 ml red cabbage to 40 ml turmeric. We used more red cabbage because our turmeric extract wasn't vibrant enough to show clearly on its own. The extra cabbage kept the colour changes strong and easy to read across all three solutions.</p>
+      <p>We measured both with a graduated cylinder, combined them in a clean beaker, and stirred for about a minute until the colour was even. We tried small batches at 60:40, 70:30, and 80:20 before settling on the final ratio.</p>
+    </div>
+    <div class="card">
+      <p class="card-label accent-orange">💧 BLENDING RATIO</p>
+      <table class="data-table">
+        <thead><tr><th>EXTRACT</th><th>RATIO</th><th>VOLUME</th></tr></thead>
+        <tbody>
+          <tr><td><b>Turmeric extract</b></td><td class="orange-text">20%</td><td>40 ml</td></tr>
+          <tr><td><b>Red cabbage extract</b></td><td class="red-text">80%</td><td>160 ml</td></tr>
+          <tr class="total-row"><td><b>Total mixture</b></td><td>100%</td><td>200 ml</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</section>
+
+<!-- ========== 04 LIVE LAB PRACTICUM ========== -->
+<section class="section" id="practicum">
+  <p class="section-badge blue">04</p>
+  <h2 class="section-title">Live Lab Practicum</h2>
+  <p class="section-sub">We tested our combined indicator against six unknown solutions in the lab, then sorted each one by colour.</p>
+
+  <div class="card wide">
+    <p class="card-label accent-blue">▮ RESULTS OVERVIEW — SAMPLES A-F</p>
+    <figure class="fig-image fig-labbench" role="img" aria-label="Classroom lab bench with graduated cylinders holding coloured samples">
+      <img src="All.jpeg" alt="Classroom lab bench with graduated cylinders holding coloured samples">
+    </figure>
+    <p class="tiny-caption">Lab bench · six unknown solutions tested with the 20:80 turmeric-cabbage blend (A-F, left to right)</p>
+
+    <div class="sample-grid">
+      <div class="sample">
+        <div class="sample-photo" style="background:linear-gradient(180deg,#f2ede2,#f2ede2 55%,#D3273B 55%)">
+          <img src="A.jpeg" alt="Sample A showing red crimson indicator colour">
+          <span class="sample-letter">A</span>
+          <span class="sample-dot" style="background:#D3273B"></span>
+        </div>
+        <p><b>Red / crimson</b><br><span class="dim">Weak acid</span></p>
+      </div>
+      <div class="sample">
+        <div class="sample-photo" style="background:linear-gradient(180deg,#f2ede2,#f2ede2 55%,#D6549A 55%)">
+          <img src="B.jpeg" alt="Sample B showing pink magenta indicator colour">
+          <span class="sample-letter">B</span>
+          <span class="sample-dot" style="background:#D6549A"></span>
+        </div>
+        <p><b>Pink / magenta</b><br><span class="dim">Weak acid</span></p>
+      </div>
+      <div class="sample">
+        <div class="sample-photo" style="background:linear-gradient(180deg,#f2ede2,#f2ede2 55%,#B77FCB 55%)">
+          <img src="C.jpeg" alt="Sample C showing light purple lavender indicator colour">
+          <span class="sample-letter">C</span>
+          <span class="sample-dot" style="background:#B77FCB"></span>
+        </div>
+        <p><b>Light purple / lavender</b><br><span class="dim">Weak alkali</span></p>
+      </div>
+      <div class="sample">
+        <div class="sample-photo" style="background:linear-gradient(180deg,#f2ede2,#f2ede2 55%,#9B4FA6 55%)">
+          <img src="D.jpeg" alt="Sample D showing purple violet indicator colour">
+          <span class="sample-letter">D</span>
+          <span class="sample-dot" style="background:#9B4FA6"></span>
+        </div>
+        <p><b>Purple / violet</b><br><span class="dim">Neutral</span></p>
+      </div>
+      <div class="sample">
+        <div class="sample-photo" style="background:linear-gradient(180deg,#f2ede2,#f2ede2 55%,#1F8F79 55%)">
+          <img src="E.jpeg" alt="Sample E showing teal blue-green indicator colour">
+          <span class="sample-letter">E</span>
+          <span class="sample-dot" style="background:#1F8F79"></span>
+        </div>
+        <p><b>Teal / blue-green</b><br><span class="dim">Strong acid</span></p>
+      </div>
+      <div class="sample">
+        <div class="sample-photo" style="background:linear-gradient(180deg,#f2ede2,#f2ede2 55%,#E2B33B 55%)">
+          <img src="F.jpeg" alt="Sample F showing yellow gold indicator colour">
+          <span class="sample-letter">F</span>
+          <span class="sample-dot" style="background:#E2B33B"></span>
+        </div>
+        <p><b>Yellow / gold</b><br><span class="dim">Strong alkali</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card wide">
+    <p class="card-label">▤ HOW TO READ THE COLOUR SCALE</p>
+    <p>Red cabbage indicator (anthocyanins) generally runs <span class="c-red">red or pink</span> in strong acid, <span class="c-rose">rose or pink</span> in weak acid, <span class="c-orange">purple or violet</span> at neutral, <span class="c-blue">blue-green or teal</span> in weak alkali, and <span class="c-yellow">yellow-green</span> in strong alkali. Turmeric (curcumin) mostly stays yellow through acid and neutral, then shifts toward reddish-brown in strong alkali. Our blend is mostly red cabbage (80%), so the cabbage pattern dominates. The turmeric mainly shows up as a brown shift at the strong-alkali end.</p>
+    <p>Match this against what we actually saw in the photos above to check each classification.</p>
+  </div>
+
+  <div class="card wide">
+    <p class="card-label">MIXED INDICATOR · FULL PH COLOUR SCALE</p>
+    <div class="scale-14">
+      <div style="background:#D8452E">1</div><div style="background:#DB5A34">2</div><div style="background:#D9686D">3</div><div style="background:#D06491">4</div><div style="background:#B571BE">5</div><div style="background:#9469C2">6</div><div style="background:#8B7DCB">7</div><div style="background:#7F91D6">8</div><div style="background:#5C9BC9">9</div><div style="background:#3FA398">10</div><div style="background:#5FAE5E">11</div><div style="background:#B7B048">12</div><div style="background:#C4923C">13</div><div style="background:#A5691F">14</div>
+    </div>
+    <div class="scale-labels">
+      <span>Strong acid</span><span>Weak acid</span><span>Neutral</span><span>Weak alkali</span><span>Strong alkali</span>
+    </div>
+  </div>
+       <!-- Interactive strip simulation for mixed indicator -->
+        <div class="card wide">
+          <p class="card-label accent-blue"><svg viewBox="0 0 24 24" class="mini-icon"><path d="M9 2v6.5L3.5 18a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L15 8.5V2" fill="none" stroke="currentColor" stroke-width="1.4"/></svg> INTERACTIVE MIXED-INDICATOR SIMULATION · MIXTURE</p>
+          <p class="hand-hint">✋ Soak the strip in the mixed indicator, then drag it into a reagent or unknown to test the blend.</p>
+
+          <div class="bench" data-bench="mixture">
+            <div class="bench-head"><span> STRIP RACK</span><span class="bench-tag">BENCH · MIX</span></div>
+
+            <div class="strip-zone">
+              <div class="strip" id="strip-mixture" draggable="true"></div>
+            </div>
+
+            <div class="station-row">
+              <div class="station source" data-role="source" data-color="#8B7DCB" data-name="Mixed indicator">
+                <div class="vial"><div class="fill" style="background:#8B7DCB;height:55%"></div></div>
+                <p class="station-name">Mixed<br>indicator</p>
+                <p class="station-sub">Indicator source</p>
+              </div>
+              <div class="station reagent" data-role="reagent" data-color="#E7476B" data-name="Lemon juice" data-ph="acid">
+                <div class="vial"><div class="fill" style="background:#CFE05B;height:45%"></div></div>
+                <p class="station-name">Lemon juice</p>
+                <p class="station-sub">Acidic</p>
+              </div>
+              <div class="station reagent" data-role="reagent" data-color="#7D5FC2" data-name="Salt water" data-ph="neutral">
+                <div class="vial"><div class="fill water" style="height:35%"></div></div>
+                <p class="station-name">Salt water</p>
+                <p class="station-sub">Neutral</p>
+              </div>
+              <div class="station reagent" data-role="reagent" data-color="#3B9CA5" data-name="Bleach" data-ph="alkaline">
+                <div class="vial"><div class="fill" style="background:#EDE7D3;height:30%"></div></div>
+                <p class="station-name">Bleach</p>
+                <p class="station-sub">Alkaline</p>
+              </div>
+            </div>
+
+            <div class="sim-message" id="sim-msg-mixture">
+              <span class="dot"></span> Drag the paper strip into the mixed indicator source to soak it.
+            </div>
+          </div>
+        </div>
+  <div class="card wide">
+    <p class="card-label accent-red">▮ CLASSIFICATION OF UNKNOWN SOLUTIONS</p>
+    <table class="data-table classify-table">
+      <thead><tr><th>SAMPLE</th><th>COLOUR OBSERVED</th><th>CLASSIFICATION</th></tr></thead>
+      <tbody>
+        <tr><td><span class="sample-badge" style="background:#D3273B">A</span></td><td>Red / crimson</td><td><span class="pill">Weak acid</span></td></tr>
+        <tr><td><span class="sample-badge" style="background:#D6549A">B</span></td><td>Pink / magenta</td><td><span class="pill">Weak acid</span></td></tr>
+        <tr><td><span class="sample-badge" style="background:#B77FCB">C</span></td><td>Light purple / lavender</td><td><span class="pill">Weak alkali</span></td></tr>
+        <tr><td><span class="sample-badge" style="background:#9B4FA6">D</span></td><td>Purple / violet</td><td><span class="pill">Neutral</span></td></tr>
+        <tr><td><span class="sample-badge" style="background:#1F8F79">E</span></td><td>Teal / blue-green</td><td><span class="pill">Strong acid</span></td></tr>
+        <tr><td><span class="sample-badge" style="background:#E2B33B">F</span></td><td>Yellow / gold</td><td><span class="pill">Strong alkali</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ========== 05 DISCUSSION & CONCLUSION ========== -->
+<section class="section" id="discussion">
+  <p class="section-badge red">05</p>
+  <h2 class="section-title">Discussion &amp; Conclusion</h2>
+  <p class="section-sub">What we found as a group, and each member's take on their own indicator.</p>
+
+  <div class="card wide">
+    <p class="card-label accent-red">⚗ GROUP ANALYSIS &amp; FINDINGS</p>
+    <p>Mixing red cabbage (80%) with turmeric (20%) gave us a broad-range indicator. It kept the wide colour range of anthocyanins, and the curcumin sharpened things up at the alkaline end where red cabbage alone gets washed out. In lemon juice the blend turned orange-red, in distilled water a purple, and in bleach a brownish-green. Three clear colours that span the whole pH scale in one mixture.</p>
+    <p>In the Live Lab Practicum the blend got five of six unknowns right. One was ambiguous, right at the weak-acid/neutral boundary where the colours are closest. We landed on the 80:20 ratio through testing. Too much turmeric and the mixture went reddish, since curcumin turns red in acid while anthocyanin turns red in base, and they cancel each other out. Our turmeric extract wasn't very vibrant on its own, so a smaller amount kept the cabbage colours clear while still sharpening the alkaline end. The big takeaway is that the two indicators cover each other's blind spots, so the blend is genuinely broad-range rather than just two narrow ones mixed together.</p>
+    <p>The main limitation is shelf life. The blend loses its colour within about 48 hours as the anthocyanins break down, so you have to make it fresh each time. Future work could lock the pigment into a bio-polymer film to make it last longer.</p>
+  </div>
+
+  <div class="grid-2">
+    <div class="card">
+      <p class="card-label accent-orange">👤 AGARAN MURUGAN · EVALUATION</p>
+      <p><b>Strengths:</b> Red cabbage covers a wide pH range with clear, well-separated colours. It's water-soluble, so extraction is just boiling. It's cheap, non-toxic, and easy to get hold of.</p>
+      <p><b>Limitations:</b> Anthocyanins break down with light and heat, so the liquid fades after a few days. The colour goes pale at the strong-alkali end. Pigment strength varies depending on the cabbage you use.</p>
+      <p><b>Improvements:</b> Standardise the concentration with a colorimeter, keep the liquid in a dark airtight container, add a little ethanol to stabilise it, and calibrate against buffers of known pH for a reliable reference chart.</p>
+    </div>
+    <div class="card">
+      <p class="card-label accent-orange">👤 AYDIN FARHAN · EVALUATION</p>
+      <p><b>Strengths:</b> Turmeric gives an intense, high-contrast response to bases. It stays stable and unchanged in acid and neutral. It's non-toxic and widely available.</p>
+      <p><b>Limitations:</b> Curcumin won't dissolve in water, so you need warm water or an organic solvent. It stains porous materials easily. The range is narrow, since it can't tell acid from neutral. And if you use too much, it masks the red cabbage's colour.</p>
+      <p><b>Improvements:</b> Extract with a controlled ethanol-water ratio for consistent strength, pre-coat and dry filter-paper strips so they're portable, and read the end-point colour with a colorimeter to take the guesswork out of it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 06 REFERENCES ========== -->
+<section class="section" id="references">
+  <p class="section-badge orange">06</p>
+  <h2 class="section-title">References</h2>
+  <p class="section-sub">The sources we used, in APA format.</p>
+
+  <div class="card wide">
+    <ol class="ref-list">
+      <li><span class="ref-num">01</span> Agaran's Source: Tonnesen, H. H., &amp; Karlsen, J. (1985). <em>Studies on curcumin and curcuminoids. VI. Kinetics of curcumin degradation in aqueous solution.</em> Zeitschrift für Lebensmittel-Untersuchung und Forschung, 180(4), 332–334. <a href="https://doi.org/10.1007/BF01041937" target="_blank" rel="noopener">https://doi.org/10.1007/BF01041937</a></li>
+      <li><span class="ref-num">02</span> Aydin's source: <a href="https://share.google/FSeugLujX3GUv7dNQ" target="_blank" rel="noopener">https://share.google/FSeugLujX3GUv7dNQ</a> (accessed 2026-07-30).</li>
+    </ol>
+  </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
